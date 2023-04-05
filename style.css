@@ -1,0 +1,68 @@
+/* 
+    padding - Espaçamento interno
+    font-family - muda a fonte
+    border-radius - Arredonda as bordas
+    transition - Cria uma transição passando o tempo dela
+    font-weigt - Peso da fonte, deixar negrito
+    margin - Margem do elemento.
+    margin-left - Margem da esquerda
+    margin-right - Margem da direita
+    margin-top - Margem de cima
+    margin-bottom - Margem de baixo
+    text-decoration - Decoração do texto, no caso aqui utilizado para tirar o underline do link 
+    width - Largura
+    background-image: linear-gradient - Passa o um efeito degrade. 
+
+*/
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background-image: linear-gradient(to right, red,black);
+}
+
+header{
+    border-radius: 10px;
+    padding: 20px;
+    background-color:#d20a28;
+    text-align: center;
+
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+a{
+    color: white;
+    margin-right: 100px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #909090;
+    transition: 0.4s ;
+}
+
+main{
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+img{
+    width: 50vw;
+    
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
