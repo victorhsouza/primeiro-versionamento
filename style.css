@@ -1,0 +1,65 @@
+header{
+    /* border: 1px solid black; */
+    background-color: #045694;
+    height: 120px;
+    text-transform: uppercase;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.9;
+}
+
+.header{
+    /* border: 1px solid red; */
+    padding-right: 10px;    
+}
+
+.header-1{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.445);
+    height: 20%;
+}
+
+.header-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.primeira-nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    gap: 20px;
+    /* border: 1px solid black; */
+}
+
+.primeira-nav a{
+    font-size: 11px;
+}
+
+.segunda-nav a{
+    font-size: 12px;
+}
+
+.segunda-nav{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    align-items: center;
+    /* border: 1px solid pink; */
+}
+
+img{
+    width: 100px;
+}
+
+ion-icon{
+    font-size: 20px;
+    color: white;
+}
